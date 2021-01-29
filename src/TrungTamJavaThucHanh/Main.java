@@ -5,7 +5,6 @@ import java.util.Scanner;
 import TrungtamJava.NhanVien;
 
 public class Main {
-   
     public String ten;
     public int tuoi;
      public Test(String ten){
