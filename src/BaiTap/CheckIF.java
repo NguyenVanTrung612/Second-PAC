@@ -1,9 +1,5 @@
 package BaiTap;
-
 import java.util.Scanner;
-
-
-
 public class CheckIF {
     public static void main(String[] args) {
         var Scanner = new Scanner(System.in);
