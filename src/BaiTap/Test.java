@@ -15,7 +15,7 @@ public class Test {
         }
          public static void main(String[] args) {
              Test t = new Test("Nguyen Van Trung");
-              t.setTuoi(19);
+              t.setTuoi(20);
               t.showStuden();
          }
     
