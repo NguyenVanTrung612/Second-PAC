@@ -74,9 +74,8 @@
 }
 .header__QR-apps {
   display: flex;
-  justify-content: space-between;
 }
 
 .header__QR-download-img {
-  height: 18px;
+  height: 15px;
 }
