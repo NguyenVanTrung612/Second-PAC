@@ -75,6 +75,12 @@
 .header__QR-apps {
   display: flex;
 }
+.header__QR-link:nth-child(1) {
+  margin-left: 11px;
+}
+.header__QR-link:nth-child(2) {
+  margin-right: 11px;
+}
 
 .header__QR-download-img {
   height: 15px;
