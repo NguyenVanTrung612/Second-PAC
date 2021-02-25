@@ -24,3 +24,12 @@ html {
   display: flex;
   flex-wrap: wrap;
 }
+/* ANIMATION */
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

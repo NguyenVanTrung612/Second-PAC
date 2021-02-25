@@ -17,6 +17,9 @@
   position: relative;
   min-height: 26px;
 }
+.header__navbar-item--has-QR:hover .header__QR {
+  display: block;
+}
 
 .header__navbar-item,
 .header__navbar-item-link {
@@ -41,11 +44,11 @@
   display: block;
   position: absolute;
   width: 1px;
-  height: 12px;
-  background-color: #fb9086;
+  height: 14px;
+  background-color: white;
   right: -9px;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 20%;
+  transform: translateY(-20%);
 }
 .header__navbar-icon-link {
   color: var(--white-color);
@@ -68,7 +71,10 @@
   top: 100%;
   padding: 8px;
   border-radius: 2px;
+  display: none;
+  animation: fadein ease-in 0.3s;
 }
+
 .header__QR-img {
   width: 100%;
 }
@@ -83,5 +89,5 @@
 }
 
 .header__QR-download-img {
-  height: 15px;
+  height: 16px;
 }
