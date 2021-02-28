@@ -106,9 +106,10 @@
   border: 1px solid #d3d3d3;
   width: 404px;
   cursor: default;
+  transform-origin: calc(100% - 20px) top;
   right: 0;
   background-color: var(--white-color);
-  animation: headerNotifyGrowth ease-in 0.3s;
+  animation: headerNotifyGrowth ease 0.3s;
 }
 @keyframes headerNotifyGrowth {
   from {
