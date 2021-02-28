@@ -12,10 +12,13 @@
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"                                                                                                                                 
+      rel="stylesheet"
+      href="./assets/fonts/fontawesome-free-5.15.2-web/css/all.min.css"
     />
-    <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.15.2-web/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="app">
@@ -23,74 +26,135 @@
         <div class="grid">
           <nav class="header__navbar">
             <ul class="header__navbar-list">
-              <li class="header__navbar-item header__navbar-item--has-QR header__navbar-item--separate">
+              <li
+                class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate"
+              >
                 Vào cửa hàng trên ứng dụng NVT-Shop
-
-                <!--Header QR Code-->
-                <div class="header__QR">
-                  <img src="./assets/img/f184c0b68a2d385feb5d70a76396230b.png" alt="QR-code" class="header__QR-img">
-                  <div class="header__QR-apps">
-                    <a href="" class="header__QR-link">
-                      <img src="./assets/img/google-play.png" alt="Google Play" class="header__QR-download-img">    
+                <div class="header__qr">
+                  <img
+                    src="./assets/img/f184c0b68a2d385feb5d70a76396230b.png"
+                    alt="QR code"
+                    class="header__qr-img"
+                  />
+                  <div class="header__qr-apps">
+                    <a href="" class="header__qr-link">
+                      <img
+                        src="./assets/img/google-play.png"
+                        alt="Google Play"
+                        class="header__qr-download-img"
+                      />
                     </a>
-                    <a href="" class="header__QR-link">
-                      <img src="./assets/img/app-store.png" alt="App Store" class="header__QR-download-img">
+                    <a href="" class="header__qr-link">
+                      <img
+                        src="./assets/img/app-store.png"
+                        alt="App Store"
+                        class="header__qr-download-img"
+                      />
                     </a>
                   </div>
                 </div>
               </li>
               <li class="header__navbar-item">
-               <span class="header__navbar-tittle--no-pointer"> Kết nối</span>
+                <span class="header__navbar-title--no-pointer">Kết nối</span>
                 <a href="" class="header__navbar-icon-link">
-                    <i class="header__navbar-icon fab fa-facebook"></i>
-                   </a>
-                   <a href="" class="header__navbar-icon-link">
-                    <i class="header__navbar-icon fab fa-instagram"></i>
-                   </a>
+                  <i class="header__navbar-icon fab fa-facebook"></i>
+                </a>
+                <a href="" class="header__navbar-icon-link">
+                  <i class="header__navbar-icon fab fa-instagram"></i>
+                </a>
+                <a href="" class="header__navbar-icon-link">
+                  <i class="header__navbar-icon fab fa-twitter-square"></i>
+                </a>
               </li>
-            </ul>                                                                                                                                                                                                                                                                                                                                                                  
+            </ul>
             <ul class="header__navbar-list">
-             <li class="header__navbar-item">
-              <a href="" class="header__navbar-item-link">
-                <i class="header__navbar-icon fas fa-bell"></i>
-                   Thông báo
-              </a>
-              <div class="header__notify">
-                <header class="header__notify-header">
-                  <h3>Thông báo mới nhận</h3>
-                </header>
-                <ul class="header__notify-list">
-                  <li class="header__notify-item">
-                      <a href="header__notify-link">
-                        <img src="https://img.abaha.vn/photos/resized/200x120/83-1611317370-myphamohui-lgvina.png" alt="" class="header__notify-img">
-                        <div class="header__notify-info">
-                          <span class="header__notify-name">Xác nhận sản phẩm chính hãng</span>
-                          <span class="header__notify-description">Mô tả sản phẩm chính hãng</span>
+              <li class="header__navbar-item">
+                <a href="" class="header__navbar-item-link">
+                  <i class="header__navbar-icon fas fa-bell"></i>
+                  Thông báo
+                </a>
+                <div class="header__notify">
+                  <header class="header__notify-header">
+                    <h3>Thông báo mới nhận</h3>
+                  </header>
+                  <ul class="header__notify-list">
+                    <li class="header__notify-item header__notify-item--viewed">
+                      <a href="" class="header__notify-link">
+                        <img
+                          src="https://img.abaha.vn/photos/resized/200x120/83-1595936336-myphamohui-lgvina.png"
+                          alt=""
+                          class="header__notify-img"
+                        />
+                        <div class="header__notify-infor">
+                          <span class="header__notify-name"
+                            >Mỹ phẩm Ohui chính hãng</span
+                          >
+                          <span class="header__notify-description"
+                            >Mô tả mỹ phẩm Ohui chính hãng</span
+                          >
                         </div>
                       </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-             <li class="header__navbar-item">
-              <a href="" class="header__navbar-item-link">
-                <i class="header__navbar-icon fas fa-question-circle"></i>
-                Trợ giúp
-                <li class="header__navbar-item">
-                  <a href="" class="heder__navbar-item-link">
-                    i.class__nav
-                  </a>
-                </li>
-              </a>
-            </li>
-              </ul>
-            </div>
+                    </li>
+                    <li class="header__notify-item header__notify-item--viewed">
+                      <a href="" class="header__notify-link">
+                        <img
+                          src="https://img.abaha.vn/photos/resized/200x120/83-1595936336-myphamohui-lgvina.png"
+                          alt=""
+                          class="header__notify-img"
+                        />
+                        <div class="header__notify-infor">
+                          <span class="header__notify-name"
+                            >Mỹ phẩm Ohui chính hãng</span
+                          >
+                          <span class="header__notify-description"
+                            >Mô tả mỹ phẩm Ohui chính hãng</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li class="header__notify-item">
+                      <a href="" class="header__notify-link">
+                        <img
+                          src="https://img.abaha.vn/photos/resized/200x120/83-1595936336-myphamohui-lgvina.png"
+                          alt=""
+                          class="header__notify-img"
+                        />
+                        <div class="header__notify-infor">
+                          <span class="header__notify-name"
+                            >Mỹ phẩm Ohui chính hãng</span
+                          >
+                          <span class="header__notify-description"
+                            >Mô tả mỹ phẩm Ohui chính hãng</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <footer class="header__notify-footer">
+                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                  </footer>
+                </div>
+              </li>
+              <li class="header__navbar-item">
+                <a href="" class="header__navbar-item-link">
+                  <i class="header__navbar-icon far fa-question-circle"></i>
+                  Trợ giúp
+                </a>
+              </li>
+              <li
+                class="header__navbar-item header__navbar-item--strong header__navbar-item--separate"
+              >
+                Đăng ký
+              </li>
+              <li class="header__navbar-item header__navbar-item--strong">
+                Đăng nhập
+              </li>
+            </ul>
           </nav>
         </div>
-        <div class="container">
-          <footer class="footer"></footer>
-        </div>
       </header>
+      <div class="container"></div>
+      <footer class="footer"></footer>
     </div>
   </body>
 </html>

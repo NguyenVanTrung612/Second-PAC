@@ -2,6 +2,7 @@
   --white-color: #fff;
   --black-color: #000;
   --text-color: #333;
+  --primary-color: #212121;
 }
 * {
   box-sizing: inherit;
@@ -24,8 +25,7 @@ html {
   display: flex;
   flex-wrap: wrap;
 }
-/* ANIMATION */
-@keyframes fadein {
+@keyframes fadeIn {
   from {
     opacity: 0;
   }
