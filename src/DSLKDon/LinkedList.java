@@ -16,6 +16,13 @@ public class LinkedList {
   }
 
   public Node search(int studentId) {
+    Node currentNode = this.head;
+    while (currentNode != null) {
+      if (currentNode.hasStudent(studentId)) {
+        return currentNode;
+      }
+      currentNode = currentNode.next;
+    }
     return null;
   }
 

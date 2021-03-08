@@ -1,7 +1,7 @@
 package DSLKDon;
 
 public class Node {
-    private Student student;
+    public Student student;
     public Node next;
 
     public Node(Student student) {
@@ -13,4 +13,9 @@ public class Node {
         student.printInfor();
 
     }
+
+    public boolean hasStudent(int studentId) {
+        return this.student.getId() == studentId;
+    }
+
 }

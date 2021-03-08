@@ -1,17 +1,28 @@
 package DSLKDon;
 
 public class Student {
+    public static int autoId;
+    public int id;
     public String name;
     public int age;
     public String gender;
     public String address;
 
     public Student(String name, int age, String gender, String address) {
+        this.id = Student.autoId++;
         this.name = name;
         this.age = age;
         this.gender = gender;
         this.address = address;
 
+    }
+
+    public int getId() {
+        return this.id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -47,6 +58,7 @@ public class Student {
     }
 
     public void printInfor() {
+        System.out.println("\nId: " + this.id);
         System.out.print("\nName: " + this.name);
         System.out.print("\nAge: " + this.age);
         System.out.print("\nGender: " + this.gender);
