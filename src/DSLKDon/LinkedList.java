@@ -29,12 +29,25 @@ public class LinkedList {
       this.size++;
       return;
     }
-    // insectAt o giua, phia sau
+    // THEM THONG TIN O PHIA SAU //
+    if (position >= size) {
+      if (this.tail != null) {
+        this.tail.next = node;
+      }
+      this.tail = node;
+      if (this.head == null) {
+        this.head = node;
+      }
+      this.size++;
+      return;
+    }
+
   }
 
   public void printList() {
     System.out.println("printList");
-    System.out.println();
+    // THEM THONG TIN PHIA DAU //
+    System.out.println("\n----------------------------");
     System.out.println("\nsize = " + this.size);
     Node currentNode = head;
     while (currentNode != null) {
