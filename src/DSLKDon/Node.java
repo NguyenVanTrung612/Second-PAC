@@ -11,11 +11,9 @@ public class Node {
 
     public void printData() {
         student.printInfor();
-
     }
 
     public boolean hasStudent(int studentId) {
         return this.student.getId() == studentId;
     }
-
 }

@@ -14,7 +14,6 @@ public class Student {
         this.age = age;
         this.gender = gender;
         this.address = address;
-
     }
 
     public int getId() {
@@ -59,11 +58,10 @@ public class Student {
 
     public void printInfor() {
         System.out.println("\nId: " + this.id);
-        System.out.print("\nName: " + this.name);
+        System.out.print("Name: " + this.name);
         System.out.print("\nAge: " + this.age);
         System.out.print("\nGender: " + this.gender);
         System.out.print("\nAddress: " + this.address);
         System.out.println("\n---------------------------");
     }
-
 }

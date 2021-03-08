@@ -17,6 +17,7 @@ public class Main {
         } else {
             System.out.println("Student id = " + id + " Khong co trong danh sach: \n");
         }
+
         // COMMENTS LIST.PRINTLIST() DE SREACH ID //
         list.printList();
     }
