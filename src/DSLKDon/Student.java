@@ -5,14 +5,13 @@ public class Student {
     public int age;
     public String gender;
     public String address;
-    public int mssv;
 
-    public Student(String name, int age, String gender, String address, int mssv) {
+    public Student(String name, int age, String gender, String address) {
         this.name = name;
         this.age = age;
         this.gender = gender;
         this.address = address;
-        this.mssv = mssv;
+
     }
 
     public String getName() {
@@ -47,20 +46,11 @@ public class Student {
         this.gender = gender;
     }
 
-    public int getMssv() {
-        return this.mssv;
-    }
-
-    public void setMssv(int mssv) {
-        this.mssv = mssv;
-    }
-
     public void printInfor() {
         System.out.print("\nName: " + this.name);
         System.out.print("\nAge: " + this.age);
         System.out.print("\nGender: " + this.gender);
         System.out.print("\nAddress: " + this.address);
-        System.out.println("\nMssv: " + this.mssv);
         System.out.println("\n---------------------------");
     }
 

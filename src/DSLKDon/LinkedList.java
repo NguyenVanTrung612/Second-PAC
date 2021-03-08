@@ -49,7 +49,7 @@ public class LinkedList {
     // THEM THONG TIN PHIA DAU //
     System.out.println("\n----------------------------");
     System.out.println("\nsize = " + this.size);
-    Node currentNode = head;
+    Node currentNode = this.head;
     while (currentNode != null) {
       currentNode.printData();
       currentNode = currentNode.next;
