@@ -7,13 +7,15 @@ public class Student {
     public int age;
     public String gender;
     public String address;
+    public int Mssv;
 
-    public Student(String name, int age, String gender, String address) {
+    public Student(String name, int age, String gender, String address, int Mssv) {
         this.id = Student.autoId++;
         this.name = name;
         this.age = age;
         this.gender = gender;
         this.address = address;
+        this.Mssv = Mssv;
     }
 
     public int getId() {
@@ -56,12 +58,22 @@ public class Student {
         this.gender = gender;
     }
 
+    public int getMssv() {
+        return this.Mssv;
+    }
+
+    public void setMssv(int mssv) {
+        Mssv = mssv;
+    }
+
     public void printInfor() {
         System.out.println("\nId: " + this.id);
         System.out.print("Name: " + this.name);
         System.out.print("\nAge: " + this.age);
         System.out.print("\nGender: " + this.gender);
         System.out.print("\nAddress: " + this.address);
+        System.out.println("\nMssv: " + this.Mssv);
         System.out.println("\n---------------------------");
     }
+
 }
