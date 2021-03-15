@@ -15,14 +15,12 @@
   margin: 0 8px;
   position: relative;
 }
-
 .header__navbar-item--has-qr:hover .header__qr {
   display: block;
 }
 .header__navbar-item--has-notify:hover .header__notify {
   display: block;
 }
-
 .header__navbar-item,
 .header__navbar-item-link {
   display: inline-block;
@@ -31,14 +29,12 @@
   text-decoration: none;
   font-weight: 300;
 }
-
 .header__navbar-item:hover,
 .header__navbar-icon-link:hover,
 .header__navbar-item-link:hover {
   color: rgba(255, 255, 255, 0.7);
   cursor: pointer;
 }
-
 .header__navbar-item--strong {
   font-weight: 400;
 }
@@ -75,7 +71,6 @@
   display: none;
   animation: fadeIn ease-in 0.3s;
 }
-
 .header__qr::before {
   content: "";
   display: block;
@@ -86,7 +81,6 @@
   top: -18px;
   display: block;
 }
-
 .header__qr-img {
   width: 100%;
 }
@@ -94,7 +88,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 .header__qr-link:nth-child(1) {
   margin-left: 11px;
 }
@@ -166,15 +159,12 @@
 .header__notify-item {
   display: flex;
 }
-
 .header__notify-item:hover {
   background-color: #e0dbdb;
 }
-
 .header__notify-item--viewed {
   background-color: rgba(238, 75, 43, 0.07);
 }
-
 .header__notify-link {
   display: flex;
   width: 100%;
@@ -199,11 +189,9 @@
   display: block;
   margin-top: 4px;
 }
-
 .header__notify-footer {
   display: flex;
 }
-
 .header__notify-footer-btn {
   text-decoration: none;
   padding: 8px 0;
@@ -301,7 +289,6 @@
 .auth-form__help-forgot {
   color: var(--primary-color);
 }
-
 .header-with-search {
   height: var(--header-hight) - var(--navbar-height);
   margin: 10px;
@@ -383,7 +370,6 @@
 .header__search-select:hover .header__search-option {
   display: block;
 }
-
 .header__search-option {
   position: absolute;
   right: 0;
@@ -396,7 +382,6 @@
   display: none;
   animation: fadeIn ease-in 0.2s;
 }
-
 .header__search-option::after {
   content: "";
   display: block;
@@ -419,7 +404,6 @@
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
 }
-
 .header__search-option-item:hover {
   background-color: #fafafa;
   cursor: pointer;
@@ -452,7 +436,6 @@
   box-shadow: 0 1px 5px rgb(189, 189, 189);
   display: none;
   overflow: hidden;
-  
 }
 .header__search-history-heading {
   margin: 6px 12px;
@@ -469,17 +452,13 @@
   height: 38px;
   padding: 0 12px;
 }
-
-
-
 .header__search-history-item:hover  {
   background-color: #fafafa;
 }
-
-
 .header__search-history-item a {
   text-decoration: none;
   font-size: 1.4rem;
   color: var(--text-color);
   line-height: 38px;
+  display: block;
 }
